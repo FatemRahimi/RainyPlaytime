@@ -17,6 +17,13 @@ import "./Weather.css";
                  </div>
             </div>
 
+            <div className="row">
+                <div className="col-6">
+                <img src= "./weather/cloudy.svg" alt="cloudy"/>
+
+                </div>
+            </div>
+
         </div>
        
     )
