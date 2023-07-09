@@ -1,5 +1,6 @@
 import React from "react";
 import "./Weather.css";
+import { InlineSVG } from 'react-inlinesvg';
 
 
 
@@ -16,16 +17,10 @@ import "./Weather.css";
             
                  </div>
             </div>
-
             <div className="row">
-                <div className="col-6">
-                <img src= "./weather/cloudy.svg" alt="cloudy"/>
-
+                 <InlineSVG src= "img/weather-icons/cloudy.svg" alt= "cloudy" className="cloud-img" />
                 </div>
             </div>
-
-        </div>
-       
-    )
+        )
 } 
 
