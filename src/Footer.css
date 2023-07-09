@@ -1,0 +1,43 @@
+:root {
+  --theme-font: "Raleway", system-ui, serif;
+  --theme-color-paper: rgba(255, 255, 255, 1);
+  --theme-color-ink: rgba(0, 0, 0, 1);
+  --theme-color-highlight: rgba(0, 0, 0, 1);
+  --theme-color-shade: rgba(0, 0, 0, 1);
+
+}
+ul{
+  margin: 20px auto;
+  padding: 0;
+  max-width: 970px;
+  width: 100%;
+  height: 150px;
+  height: calc(100vh-150);
+}
+
+li{
+  list-style: none;
+}
+
+.footer{
+  margin: 10px 0;
+  font-family: var(--theme-font);
+}
+
+.footer .footerList {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footerList .footerItem{
+  display: flex;
+  flex-direction: column;
+}
+.img {
+ fill:#F29FE1;
+ border: 1px solid black;
+ margin: 10px 0;
+ width: 35px;
+ height: 35px;
+ background: red;
+}

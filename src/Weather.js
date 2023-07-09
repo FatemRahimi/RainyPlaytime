@@ -1,5 +1,6 @@
 import React from "react";
 import "./Weather.css";
+import Footer from "./Footer";
 
  export default function Weather() {
     return (
@@ -11,7 +12,7 @@ import "./Weather.css";
                     <i class="fa fa-search mr-1"> </i> Find Weather</button>
                  </div>
             </div>
-
+            <Footer />
         </div>
        
     )
