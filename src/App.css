@@ -1,0 +1,30 @@
+#root {
+    min-height: 100vh;
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.search {
+    width: 40%; /* Set the width to 100% to fill the container */
+    padding: 8px; /* Adjust the padding to your preference */
+    margin-bottom: 12px; /* Add margin to create spacing between inputs */
+  }
+
+
+footer {
+    margin-top: 200px;
+}
+

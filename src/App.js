@@ -4,6 +4,7 @@ import axios from "axios";
 import 'bootstrap/dist/css/bootstrap.css';
 import { Form, Container, Row, Col, Button } from 'react-bootstrap';
 import Navbar from 'react-bootstrap/Navbar';
+import bgImg from "./img/weather-icons/bgImg.avif"
 
 function App() {
 
@@ -21,9 +22,6 @@ function App() {
   }
   }
 
-
-
-
   return (
   //   <div className="App">
   //     <div className="container">
@@ -33,13 +31,13 @@ function App() {
   //    </div>
   //  </div>
 
-  <div className="container">
+  <div className="container" style={{backgroundImage: `url(${"https://images.unsplash.com/photo-1505765050516-f72dcac9c60e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fG5hdHVyZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60"})`}}>
      <Container fluid>
     {/* NAVBAR */}
-    <Navbar expand="lg" bg="success" variant="dark">
-      <Container>
+    <Navbar expand="sm" bg="success" variant="dark">
+
         <Navbar.Brand href="#">Search for current weather</Navbar.Brand>
-      </Container>
+
     </Navbar>
 
     <Form>
@@ -75,7 +73,7 @@ function App() {
 
       {/* BOTTOM */}
       {data.name != undefined &&
-        <footer className="bg-dark text-light">
+        <footer className="bg-success text-light">
         <div className="row">
         <div className="col">
         <p>Feels like</p>
